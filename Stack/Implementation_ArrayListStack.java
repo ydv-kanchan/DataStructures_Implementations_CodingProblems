@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 
-import javax.sound.midi.Sequencer.SyncMode;
 
 public class Implementation_ArrayListStack<T> { //generic stack class
     
