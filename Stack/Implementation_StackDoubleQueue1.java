@@ -4,7 +4,7 @@ import java.util.Queue;
 // Interview question : imlement stack using queue.
 //Approach 1: pop costly solution, here pop is O(n), top is O(1) and push is O(1)
 
-public class Implementation_StackDoubleQueue {
+public class Implementation_StackDoubleQueue1 {
     Queue<Integer> q1 = new LinkedList<>();
     Queue<Integer> q2 = new LinkedList<>();
     //no need to make size and isEmpty because Queue already have these functions
@@ -58,7 +58,7 @@ public class Implementation_StackDoubleQueue {
     }
 
     public static void main(String[] arg) {
-        Implementation_StackDoubleQueue s = new Implementation_StackDoubleQueue();
+        Implementation_StackDoubleQueue1 s = new Implementation_StackDoubleQueue1();
         s.push(10);
         s.push(20);
         s.push(30);

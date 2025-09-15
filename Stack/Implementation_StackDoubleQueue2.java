@@ -24,7 +24,7 @@ But, interviewers love it when you say:
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Implementation_StackSingleQueue {
+public class Implementation_StackDoubleQueue2 {
     Queue<Integer> q1 = new LinkedList<>();
     Queue<Integer> q2 = new LinkedList<>();
 
@@ -63,7 +63,7 @@ public class Implementation_StackSingleQueue {
     }
 
     public static void main(String[] args) {
-        Implementation_StackSingleQueue s = new Implementation_StackSingleQueue();
+        Implementation_StackDoubleQueue2 s = new Implementation_StackDoubleQueue2();
         s.push(10);
         s.push(20);
         s.push(30);
