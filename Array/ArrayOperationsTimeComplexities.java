@@ -40,8 +40,10 @@ public class ArrayOperationsTimeComplexities {
         System.out.println("delete last element of the array, just simply ignore it");
         //delete element at the end of array
         for (int j = 0; j < n - 1; j++) {
-            System.out.print(arr[j]+" ");
+            System.out.print(arr[j] + " ");
         }
+        System.out.println();
+        System.out.println("we can still access the last element using arr[index], but we just logically explude it from the array! "+arr[n-1]);
         
         System.out.println();
         System.out.println();
@@ -57,6 +59,10 @@ public class ArrayOperationsTimeComplexities {
             }
         }
         System.out.println();
+        System.out.println();
+        
+        //insert at the end and middle
+
         sc.close();
     }
 }
