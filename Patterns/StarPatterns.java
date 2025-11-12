@@ -258,23 +258,24 @@ public class StarPatterns {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        // pattern1(n);
-        // System.out.println();
-        // pattern2(n);
-        // System.out.println();
-        // pattern3(n);
-        // System.out.println();
-        // pattern4(n);
-        // System.out.println();
-        // pattern5(n);
-        // System.out.println();
-        // pattern6(n);
-        // System.out.println();
-        // pattern7(n);
-        // System.out.println();
-        // pattern8(n);
-        // System.out.println();
+        pattern1(n);
+        System.out.println();
+        pattern2(n);
+        System.out.println();
+        pattern3(n);
+        System.out.println();
+        pattern4(n);
+        System.out.println();
+        pattern5(n);
+        System.out.println();
+        pattern6(n);
+        System.out.println();
+        pattern7(n);
+        System.out.println();
+        pattern8(n);
+        System.out.println();
         pattern9(n);
+        System.err.println("finished");
         sc.close();
     }
 }
