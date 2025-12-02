@@ -62,7 +62,11 @@ public class ArrayOperationsTimeComplexities {
         System.out.println();
         
         //insert at the end and middle
-
+        
+        arr[n - 1] = 100;
+        for (int a = 0; a < n; a++) {
+            System.out.print(arrNew[a]+" ");
+        }
         sc.close();
     }
 }
