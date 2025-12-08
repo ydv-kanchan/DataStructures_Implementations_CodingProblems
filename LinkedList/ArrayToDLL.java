@@ -52,6 +52,17 @@ public class ArrayToDLL {
         return head;
     }
 
+    public static Node deleteTrailDLL(Node head) {
+        if (head == null)
+            return null;
+        Node temp = head;
+        while (temp.next.next != null) {
+            temp = temp.next;
+        }
+        temp.next = null;
+        return head;
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt();
@@ -67,6 +78,8 @@ public class ArrayToDLL {
         Node head = arraytoDLL(arr2);
         printLL(head);
         head = deleteHeadDLL(head);
+        printLL(head);
+        head = deleteTrailDLL(head);
         printLL(head);
         sc.close();
     }
